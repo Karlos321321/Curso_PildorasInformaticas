@@ -8,7 +8,7 @@ public class Anidamiento_If {
 		int edad = Integer.parseInt(JOptionPane.showInputDialog("Introduce tu edad "));
 		
 		if(edad>=18) {	
-			String carnet = JOptionPane.showInputDialog("Tienes carnet de conducir??");
+			String carnet = JOptionPane.showInputDialog("Tienes carnet de conducir colega??");
 			
 			if(carnet.equalsIgnoreCase("si")) JOptionPane.showMessageDialog(null, "Eres mayor de edad y tienes carnet de conducir, por lo tanto puedes comprarte el coche");
 				else JOptionPane.showMessageDialog(null, "Eres mayor de edad pero no tienes carnet de conducir");
