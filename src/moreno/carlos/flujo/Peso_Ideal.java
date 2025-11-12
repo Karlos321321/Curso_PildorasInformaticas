@@ -1,4 +1,6 @@
 package moreno.carlos.flujo;
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 public class Peso_Ideal {
