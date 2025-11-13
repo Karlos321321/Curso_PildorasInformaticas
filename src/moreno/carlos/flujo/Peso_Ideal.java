@@ -15,6 +15,7 @@ public class Peso_Ideal {
 				//salida = 'true' para que el programa termine
 				//salida = 'false' para que el programa se repita
 				salida = true;
+				
 				altura = Integer.parseInt(JOptionPane.showInputDialog("Dime tu altura en cm ?? "));
 				
 				if(altura<=0) {
@@ -35,7 +36,7 @@ public class Peso_Ideal {
 										System.out.println(genero + " --> Genero incorrecto, intentalo de nuevo !!!!");
 										salida2 = false;
 										}
-						
+					
 					} while(!salida2);
 						
 					}
