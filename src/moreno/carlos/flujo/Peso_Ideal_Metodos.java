@@ -9,10 +9,11 @@ public class Peso_Ideal_Metodos {
 		
 		int altura = altura();
 		int peso = pesoIdeal(altura);
+		
 		impresionDatos(altura, peso);
 	}
 	
-	static void impresionDatos(int alt, int pesId) {
+	static  void impresionDatos(int alt, int pesId) {
 		
 		String sexo = (genero.equalsIgnoreCase("h")) ? "un hombre" : "una mujer";
 		System.out.println("Eres " + sexo + ", que tiene un altura de " + alt + "cm y cuyo peso ideal"
@@ -21,7 +22,7 @@ public class Peso_Ideal_Metodos {
 	
 	static int altura() {
 	
-		boolean salida;;
+		boolean salida;
 		int altura=0;
 	
 		do {
