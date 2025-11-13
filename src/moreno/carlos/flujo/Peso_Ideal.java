@@ -36,7 +36,7 @@ public class Peso_Ideal {
 										salida2 = false;
 										}
 						
-						} while(!salida2);
+					} while(!salida2);
 						
 					}
 				
