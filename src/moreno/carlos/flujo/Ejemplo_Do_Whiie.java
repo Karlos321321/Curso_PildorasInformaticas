@@ -23,6 +23,6 @@ public class Ejemplo_Do_Whiie {
 			
 		} while (!texto.equalsIgnoreCase("salir"));
 		
-		System.out.println("\nHas introducido la palabra 'Salir' ");
+		System.out.println("\nHas introducido laholaalabra 'Salir' ");
 	}
 }
