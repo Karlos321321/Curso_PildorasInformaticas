@@ -20,12 +20,11 @@ public class Ejemplo_Arrays_Bidimensional {
 		
 		//Imprime el contenido de la Matriz Bidimensional
 		//
-		for (int i = 0; i < numeros.length; i++) {	
-			for (int j = 0; j < numeros[i].length; j++) {
+		for (int[] ks : numeros) {
+			for (int dato : ks) {
 				
-				System.out.printf("%2d  ", numeros[i][j]);
+				System.out.printf("%2d  ", dato);
 			}
-			
 			System.out.println();
 		}
 	}
