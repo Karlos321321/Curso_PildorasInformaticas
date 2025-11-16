@@ -1,7 +1,5 @@
 package moreno.carlos.flujo;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class Condicional_If_Ejemplo1 {
