@@ -20,9 +20,10 @@ public class Email_Valido {
 				if (mail.charAt(i)=='.') punto++;
 			}
 			
-			if(arroba==1 && punto==1 && mail.length()>=4) salida=true;	
+			if(arroba==1 && punto==1 && mail.length()>=4) salida=true;
+			else System.out.println("Email incorrecto !!!!");
 		}
 		
-		System.out.println("Direccion de Email CORRECTA !!!!  ---  " + mail);
+		System.out.println("Direccion de Email INCORRECTA !!!!  ---  " + mail);
 	}
 }
