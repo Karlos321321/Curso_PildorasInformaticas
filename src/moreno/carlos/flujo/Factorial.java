@@ -8,7 +8,7 @@ public class Factorial {
 		int numero = Integer.parseInt(JOptionPane.showInputDialog("Introduce un numero para hallar su factorial -->"));
 		int factorial=numero;
 		
-		for (int i = (numero-1); i>1; i--) {
+		for (int i = (numero-1); i>0; i--) {
 			
 			factorial *= i;
 		}

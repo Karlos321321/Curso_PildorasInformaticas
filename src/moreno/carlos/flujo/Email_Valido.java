@@ -24,6 +24,6 @@ public class Email_Valido {
 			else System.out.println("Email incorrecto !!!!");
 		}
 		
-		System.out.println("Direccion de Email INCORRECTA !!!!  ---  " + mail);
+		System.out.println(" Direccion de Email correcta !!!!!  ---  " + mail);
 	}
 }
