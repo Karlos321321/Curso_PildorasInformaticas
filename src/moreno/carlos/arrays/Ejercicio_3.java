@@ -16,20 +16,6 @@ public class Ejercicio_3 {
 		
 		System.out.println("Contenido total del array");
 		System.out.println("=========================\n");
-		//Array
-	        	
-	        	if (array[i] == array[j]) {
-	        		count++;
-	                visited[j] = true;
-	                posicionRepetido += String.valueOf(j) + " " ;
-	                
-	        	}
-	        }
-	        
-	         System.out.println("El número " + array[i] + (count>1 ? " se repite " + count + " veces.": " no se repite"));
-	         
-	         System.out.println(count==1 ? "POSICION INICIAL " + i : "en las posiciones: " + i + " " + posicionRepetido);
-	         s.sort(array);
 		
 		for (int i : array) {
 			
@@ -42,6 +28,7 @@ public class Ejercicio_3 {
 		//EMPIEZA EL PROGRAMA DE VERDAD !!!!
 		//	
 	    boolean[] visited = new boolean[array.length];
+	    
 	    Arrays.fill(visited, false);
 
 	    for (int i = 0; i < array.length; i++) {
@@ -53,7 +40,18 @@ public class Ejercicio_3 {
 	        int count = 1;
 	        
 	        for (int j = i + 1; j < array.length; j++) {
-	         System.out.println();
+	         
+	        	if (array[i] == array[j]) {
+	        		count++;
+	                visited[j] = true;
+	                posicionRepetido += String.valueOf(j) + " " ;
+	                
+	        	}
+	        }
+	        
+	        System.out.println("El número " + array[i] + (count>1 ? " se repite " + count + " veces.": " no se repite"));
+	        System.out.println(count==1 ? "POSICION INICIAL " + i : "en las posiciones: " + i + " " + posicionRepetido);
+	        System.out.println();
 	    }
 	}
 }
