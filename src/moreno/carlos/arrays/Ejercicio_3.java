@@ -1,4 +1,5 @@
 package moreno.carlos.arrays;
+import java.util.Arrays;
 
 public class Ejercicio_3 {
 
@@ -6,33 +7,53 @@ public class Ejercicio_3 {
 		
 		int[] array = new int[20];
 		int posicion=0;
-		String repetidos="";
 		
-		//Introducimos 100 numeros de forma aleatoria en el array
-		//
+		
 		for (int i = 0; i < array.length; i++) {
-			array[i] = (int) (Math.random()*5);
+			
+			array[i] = (int) (Math.random()*10);
 		}
 		
-		//Imprimimos el array con un bucle foreach
-		//
+		System.out.println("Contenido total del array");
+		System.out.println("=========================\n");
+		//Arrays.sort(array);
+		
 		for (int i : array) {
 			
 			System.out.printf("Posicion: %2d ---> Valor: %2d\n", posicion , i);
 			posicion++;
 		}
 		
-		for (int i = 0; i < array.length; i++) {
-			
-			for (int j = 1; j < array.length; j++) {
-				
-				if(array[i] == array[j]) {
-					
-					repetidos += array[i];
-				}
-			}
-		}
+		System.out.println();
 		
-		System.out.println(repetidos);
+		//EMPIEZA EL PROGRAMA DE VERDAD !!!!
+		//	
+	    boolean[] visited = new boolean[array.length];
+	    Arrays.fill(visited, false);
+
+	    for (int i = 0; i < array.length; i++) {
+	    	
+	    	String posicionRepetido="";
+
+	    	if (visited[i]) continue;
+	        
+	        int count = 1;
+	        
+	        for (int j = i + 1; j < array.length; j++) {
+	        	
+	        	if (array[i] == array[j]) {
+	        		count++;
+	                visited[j] = true;
+	                posicionRepetido += String.valueOf(j) + " " ;
+	                
+	        	}
+	        }
+	        
+	         System.out.println("El número " + array[i] + (count>1 ? " se repite " + count + " veces.": " no se repite"));
+	         
+	         System.out.println(count==1 ? "POSICION INICIAL " + i : "en las posiciones: " + i + " " + posicionRepetido);
+	         
+	         System.out.println();
+	    }
 	}
 }
