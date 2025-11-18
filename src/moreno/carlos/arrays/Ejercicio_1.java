@@ -25,7 +25,6 @@ public class Ejercicio_1 {
 			System.out.println("\nNumeros Negativos\n" + negativos);
 			System.out.println("\nCeros introducidos\n" + ceros);
 			
-			
-		
+		entrada.close();
 	}
 }

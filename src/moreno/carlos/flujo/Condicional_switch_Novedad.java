@@ -26,5 +26,7 @@ public class Condicional_switch_Novedad {
 		};
 		
 		System.out.println(resultado);
+		
+		entrada.close();
 	}
 }

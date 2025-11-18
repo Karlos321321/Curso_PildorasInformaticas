@@ -10,6 +10,8 @@ public class RaizScannerPocasLineas {
 		System.out.println("Introduce un numero");
 		
 		System.out.println("La raiz es " + Math.sqrt(entrada.nextInt()));
+		
+		entrada.close();
 	
 	}
 }

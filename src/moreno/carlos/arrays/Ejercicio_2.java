@@ -30,5 +30,7 @@ public class Ejercicio_2 {
 		}
 		
 		System.out.println("\nSuma = " + suma);
+		
+		entrada.close();		
 	}
 }
