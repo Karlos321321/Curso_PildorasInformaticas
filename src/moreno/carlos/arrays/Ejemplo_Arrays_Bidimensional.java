@@ -5,7 +5,6 @@ public class Ejemplo_Arrays_Bidimensional {
 	public static void main(String[] args) {
 		
 		int[][] numeros = new int[5][3];
-		
 		//Rellena la matriz con numeros aleatorios
 		//
 		for (int i = 0; i < numeros.length; i++) {	
@@ -17,7 +16,6 @@ public class Ejemplo_Arrays_Bidimensional {
 				else numeros[i][j]=numero;
 			}
 		}
-		
 		//Imprime el contenido de la Matriz Bidimensional
 		//
 		for (int[] ks : numeros) {
@@ -28,7 +26,6 @@ public class Ejemplo_Arrays_Bidimensional {
 			System.out.println();
 		}
 	}
-	
 	//Comprueba si el numero generado aleatoriamente esta repetido
 	//
 	static boolean repetido(int array[][] , int numero) {

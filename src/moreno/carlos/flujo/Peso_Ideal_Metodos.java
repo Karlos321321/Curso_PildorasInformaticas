@@ -50,7 +50,7 @@ public class Peso_Ideal_Metodos {
 	static int pesoIdeal(int alt) {
 		//salida = 'true' sale del bucle
 		//salida = 'false' se repite el bucle
-		boolean salida;
+		boolean salida;		
 		int peso_Ideal=0;
 		
 		do {
