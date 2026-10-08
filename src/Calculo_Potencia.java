@@ -1,4 +1,8 @@
 
+//-----------------------------------------------
+//PROGRAMA PARA CALCULAR LA POTENCIA DE UN NUMERO
+//-----------------------------------------------
+
 public class Calculo_Potencia {
 	
 	public static void main(String[] args) {
