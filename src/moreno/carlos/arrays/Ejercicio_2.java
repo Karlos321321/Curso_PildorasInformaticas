@@ -1,6 +1,9 @@
 package moreno.carlos.arrays;
 import java.util.Scanner;
 
+//Ejercicio 2: Introducir 10 numeros en un array y mostrar los numeros que estan en las posiciones pares del array y la suma de estos numeros.
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
 public class Ejercicio_2 {
 
 	public static void main(String[] args) {
