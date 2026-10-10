@@ -1,13 +1,13 @@
 
-//-----------------------------------------------
+//***********************************************
 //PROGRAMA PARA CALCULAR LA POTENCIA DE UN NUMERO
-//-----------------------------------------------
+//***********************************************
 
 public class Calculo_Potencia {
 	
 	public static void main(String[] args) {
 		
-		int base = 5;
+		int base = 8;
 		int exponente = 12;
 		
 		int resultado = (int) Math.pow(base,exponente);
