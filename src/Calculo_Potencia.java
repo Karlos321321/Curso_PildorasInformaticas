@@ -4,7 +4,6 @@
 //***********************************************
 
 
-
 public class Calculo_Potencia {
 	
 	public static void main(String[] args) {
