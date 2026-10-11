@@ -8,7 +8,7 @@ public class Calculo_Potencia {
 	
 	public static void main(String[] args) {
 		
-		int base = 8;
+		int base = 3;
 		int exponente = 12;
 		
 		int resultado = (int) Math.pow(base,exponente);
