@@ -1,6 +1,11 @@
 package moreno.carlos.flujo;
 import javax.swing.JOptionPane;
 
+//************************************************
+//Programa para calcular el factorial de un numero
+//************************************************
+
+
 public class Factorial {
 
 	public static void main(String[] args) {
